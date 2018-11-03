@@ -12,16 +12,17 @@ body {
  background-color: #EDE3D9;
 }
 
+/* ===== HEADER ===== */
+
 .name {
  text-decoration: none;
- margin-top: 1em;
- margin-bottom: 1em;
+ margin-top: .5em;
+ margin-bottom: 0;
  font-family: 'Varela Round', sans-serif;
 }
 
  li a {
-  text-decoration: none;
-  list-style: none;
+  list-style-type: none;
   display: block;
   margin: .5em;
   padding: 0.625em;
@@ -38,6 +39,14 @@ a:hover {
   background-color: transparent;
 }
 
+.profile-img {
+  width: 85%;
+  margin-top: .5em;
+  margin-bottom: .5em;
+ }
+
+/* ===== MAIN ===== */
+
 img {
  width: 100%;
  max-width: 18.750em;
@@ -46,16 +55,14 @@ img {
 
 .main-section {
  background-color: white;
+
 }
 
 .intro {
+  text-align: justify; 
   padding-left: 1em;
   padding-right: 1em;
-  padding-bottom: 2em;
-}
-
-.profile-img {
- width: 85%;
+  padding-bottom: .5em;
 }
 
 h3 {
@@ -65,34 +72,36 @@ h3 {
  text-decoration: underline;
 }
 
-
 h2 {
  margin-bottom: 0.625em;
 }
 
 .main-section {
-  padding-bottom: 2em;
+  padding-bottom: .5em;
 }
 
 p {
   margin: 1em .5em;
- }
+}
 
- #education {
+#education {
    background-color: 	#51BAB5;
+   padding-bottom: 1em;
 }
 
-.contact-section {
- padding-bottom: 1.5em;
+.logos {
+  margin: .5em;
 }
+
+/* ===== FOOTER ===== */
 
 footer {
-  margin: 1.5em;
+  margin: .5em;
 }
 
 footer h4 { 
   float: left;
-  margin-left: -.8em;
+  margin-top: .5em;
   margin-bottom: 1em;
   font-family: 'Varela Round', sans-serif;
 }
@@ -106,6 +115,95 @@ footer h4 {
  background-color: transparent;
  float: right;
  text-transform: uppercase;
- margin-right: -.8em;
+ margin-left: 1em;
+ margin-top: .5em;
+ margin-bottom: 1em;
  font-family: 'Varela Round', sans-serif;
+ font-weight: bold;
+}
+
+/* ===== TABLET ===== */
+
+@media (min-width: 768px) {
+
+.top-nav li  {
+  display: inline-block;
+  font-size: .8rem;
+  padding: 5px;
+  margin: .5em;
+  text-align: center;
+}
+
+li a {
+  background-color: transparent;
+}
+
+.profile-img {
+  float: right;
+  width: 35%;
+  margin-right: 1em;
+  margin-top: 0;
+}
+
+header {
+  margin-bottom: 1em;
+}
+
+.intro {
+  float: left;
+  width: 55%;
+  text-align: left;
+  font-size: 1.188em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.logos {
+  display: block;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+
+footer {
+ margin: 0;
+}
+
+footer h4 {
+ margin-top: 1em;
+ margin-left: 1em;
+}
+
+.tablet-nav {
+  display: inline-block;
+}
+
+.tablet-nav li {
+  display: inline-block;
+  list-style-type: none;
+  font-family: 'Varela Round', sans-serif;
+  font-size: .8rem;
+  font-weight: bold;
+  margin-top: .8em;
+  margin-bottom: .8em;
+  padding: 0;
+}
+
+.tablet-nav li a {
+  margin: 0;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
 }

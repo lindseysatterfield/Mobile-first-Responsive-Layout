@@ -13,24 +13,25 @@
 <body>
 <!--========= BEGIN HEADER =========-->
 	<header>
-   <nav class="top-nav">
+		<div>
+   <nav>
        <h1 class="name">Lindsey Satterfield</h1>
-        <ul>
+        <ul class="top-nav">
           <li><a href="index.html">Home</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
 					<li><a href="#education">Education</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
 		</nav>
-		<div>
+	</div>
+		<div class="intro-div clearfix">
 			<a href="index.html"><img src="images/responsive-layout-profile.png" alt="Profile Picture of a man" class="profile-img">
 			</a>
-		</div>
-		<div>
 			<p class="intro">
 				Hello World! My name is Lindsey Satterfield and I am an aspiring front-end web developer. I have had an interest in technology from a young age. Having recently finished the front-end web developer Techdegree at Team Treehouse, I am eager to create responsive websites!
 			</p>
 		</div>
+	
 	</header>  
 
 	<!--========= BEGIN MAIN CONTENT =========-->
@@ -89,9 +90,11 @@
 <section class="education-section">
 		<div id="education">
 			<h3>Education</h3>
-				<img src="images/icons.png" alt="HTML, CSS, and Javascript logos">
-				<img src="images/treehouse.png" alt="Team Treehouse logo">
-				<img src="images/UT-logo.png" alt="University of Tennessee logo">
+				<img src="images/icons.png" alt="HTML, CSS, and Javascript logos" class="logos">
+			<a href="https://teamtreehouse.com/" target="_blank"><img src="images/treehouse.png" alt="Team Treehouse logo" class="logos">
+			</a>
+			<a href="https://utk.edu/" target="_blank"><img src="images/UT-logo.png" alt="University of Tennessee logo" class="logos">	
+			</a>
 		</div>
 </section>
 
@@ -110,59 +113,18 @@
 <!--========= BEGIN FOOTER=========-->
 <hr>
 <footer>
-	<div>
+	<div class="footer-div clearfix">
 		<h4>Lindsey Satterfield &copy;</h4>
-		<nav class="tablet-nav">
-			<ul>
-				<li><a href="index.html"></a>Home</a></li>
+		<nav>
+			<ul class="tablet-nav">
+				<li><a href="index.html">Home</a></li>
 				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#education">Education</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
-		<a href="#" class="mobile-nav"><strong>Back to Top</strong></a>
+		<a href="#" class="mobile-nav">Back to Top</a>
 	</div>
 </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
- 
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
