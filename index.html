@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,13 +14,13 @@
 <body>
 <!--========= BEGIN HEADER =========-->
 	<header>
-		<div>
+		<div class="nav clearfix">
    <nav>
        <h1 class="name">Lindsey Satterfield</h1>
         <ul class="top-nav">
-          <li><a href="index.html">Home</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#education">Education</a></li>
+         	<li><a href="index.html">Home</a></li>
+										<li><a href="#portfolio">Portfolio</a></li>
+										<li><a href="#education">Education</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
 		</nav>
@@ -38,14 +39,19 @@
 	<section class="main-section">
 		<div id="portfolio">
 			<h3>Portfolio</h3>
-			<img src="images/portfolio-1.png" alt="Marketing Page image">
-			<h2>Marketing Page</h2>
-			<p>
-				This project shows the front page of a marketing website meant for a specific business I'm interested in.
-			</p>
 		</div>
 		
-		<div>
+		<div class="portfolio-items clearfix">
+		
+				<div class="items">
+					<img src="images/portfolio-1.png" alt="Marketing Page image">
+					<h2>Marketing Page</h2>
+					<p>
+							This project shows the front page of a marketing website meant for a specific business I'm interested in.
+					</p>
+				</div>
+		
+		<div class="items">
 			<img src="images/portfolio-2.png" alt="Search Page image">
 			<h2>Search Page</h2>
 			<p>
@@ -53,15 +59,15 @@
 			</p>
 		</div>
 
-		<div>
+		<div class="items">
 			<img src="images/portfolio-3.png" alt="Travel app image">
 			<h2>Travel App</h2>
-			<p class="travel-description">
+			<p>
 				This project compares travel times based on different transportation methods and tells you the best one.
 			</p>
 		</div>
 
-		<div>
+		<div class="items">
 				<img src="images/portfolio-4.png" alt="Map of Favorite Spots image">
 				<h2>Map of Favorite Spots</h2>
 				<p>
@@ -69,7 +75,7 @@
 				</p>
 		</div>
 
-		<div class="photo-gallery">
+		<div class="items">
 				<img src="images/portfolio-5.png" alt="Photo Gallery image">
 				<h2>Photo Gallery</h2>
 				<p>
@@ -77,13 +83,14 @@
 				</p>
 		</div>
 
-		<div>
+		<div class="items">
 				<img src="images/portfolio-6.png" alt="Calculator app image">
 				<h2>Calculator</h2>
 				<p>
 					Someone can enter in the numbers they want, and press the big blue button and get the result.
 				</p>
-			</div>
+		</div>
+	</div>
 	</section>
 
 <!--========= BEGIN EDUCATION SECTION =========-->
@@ -91,7 +98,7 @@
 		<div id="education">
 			<h3>Education</h3>
 				<img src="images/icons.png" alt="HTML, CSS, and Javascript logos" class="logos">
-			<a href="https://teamtreehouse.com/" target="_blank"><img src="images/treehouse.png" alt="Team Treehouse logo" class="logos">
+			<a href="https://teamtreehouse.com/" target="_blank"><img src="images/treehouse.png" alt="Team Treehouse logo" class="logos treehouse">
 			</a>
 			<a href="https://utk.edu/" target="_blank"><img src="images/UT-logo.png" alt="University of Tennessee logo" class="logos">	
 			</a>
