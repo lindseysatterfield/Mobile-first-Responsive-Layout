@@ -40,7 +40,7 @@
    color: inherit;
  }
  
- a:hover { 
+  a:hover { 
    background-color: transparent;
  }
  
@@ -78,6 +78,10 @@
  
  h2 {
   margin-bottom: 0.625em;
+ }
+
+ .main-section p {
+   margin: 0 .5em;
  }
  
  #education {
@@ -236,7 +240,6 @@
   .name {
     float: left;
     padding-left: .5em;
-    margin-top: .5em;
   }
  
   .top-nav {
